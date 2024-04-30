@@ -1,0 +1,16 @@
+{
+    "name": "testpackage",
+    "version": "0.0.0",
+    "description": "",
+    "main": "built/index.js",
+    "types": "built/index.d.ts",
+    "sideEffects": false,
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf built"
+    },
+    "type": "module",
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}

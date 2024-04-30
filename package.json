@@ -1,0 +1,13 @@
+{
+  "name": "nx-repro",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build": "nx run-many --target=build",
+    "clean": "nx run-many --target=clean",
+    "reset": "nx reset"
+  },
+  "devDependencies": {
+    "nx": "18.3.4"
+  }
+}
