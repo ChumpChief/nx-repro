@@ -1,7 +1,6 @@
 {
   "name": "nx-repro",
   "private": true,
-  "description": "",
   "scripts": {
     "build": "nx run-many --target=build",
     "clean": "nx run-many --target=clean",
